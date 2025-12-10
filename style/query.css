@@ -1,0 +1,9 @@
+@media(width < 480px) {
+    #humberger {
+        display: block;
+    }
+
+    #menuClassique {
+        display: none;
+    }
+}
