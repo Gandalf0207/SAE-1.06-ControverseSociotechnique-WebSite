@@ -37,18 +37,18 @@ header {
     display: flex;
     top: 0;
     position: sticky;
-    align-content: center;
 }
 
 
 nav {
     display: flex ;
     width: 100%;
-    justify-content: center;
-    background-color: blue;
+    justify-content: left;
+    background-color: #f8f9fa;
     min-height: 5em;
     font-family: var(--main-font);
-    align-items: stretch;
+    align-items:stretch;
+    
 }
 
 
@@ -57,20 +57,22 @@ nav {
 }
 
 #menuClassique {
-    background-color: aqua;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 2em;
+    width: 40%;
+    margin-left: 1em;
 }
 
 .menu {
-    background-color: blueviolet;
     justify-content: center;
     align-items: center;
     display: flex;
     position: relative;
-    flex:1
+    flex: 1;
+    min-width: 6em;
+    width: auto;
 }
 
 .sous-menu {
@@ -94,7 +96,7 @@ nav {
 
 /* Annimation */
 
-nav > div:hover .sous-menuElt {
+.menu:hover .sous-menuElt {
     animation : slideIn 0.4s forwards
 }
 
@@ -109,16 +111,62 @@ nav > div:hover .sous-menuElt {
     }
 }
 
-nav > div:hover .sous_menuElt:nth-child(1){
+.menu:hover .sous_menuElt:nth-child(1){
     animation-delay: 0s;
 }
 
-nav > div:hover .sous-menuElt:nth-child(2){
+.menu:hover .sous-menuElt:nth-child(2){
     animation-delay: 0.08s;
 }
 
-nav > div:hover .sous-menuElt:nth-child(3){
+.menu:hover .sous-menuElt:nth-child(3){
     animation-delay: 0.16s;
+}
+
+
+
+.menu > a {
+    background-color: transparent;
+    min-width: min-content;
+    width: 90%;
+    height: 50%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.2s ease-in-out;
+    z-index: 1;
+}
+
+.menu > a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: black;
+    transition: height 0.2s ease-out;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.menu > a:hover::before {
+    height: 100%;
+}
+
+.menu > a:hover {
+    color: azure;
+}
+
+footer {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 
