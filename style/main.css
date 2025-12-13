@@ -53,7 +53,34 @@ nav {
 
 #humberger {
     display: none;
+    width: 4em;
+    height: 100%;    
 }
+
+#menu-humberger {
+    display: none;
+    flex-direction: column;
+    background-color: aqua;
+    position: absolute;
+    top: 100%;
+    gap: 1em;
+    left: 0;
+    width: 100%;
+}
+
+.sous-menu-humberger {
+    display: flex;
+    justify-content: center;
+}
+
+#humberger:hover #menu-humberger {
+    display: flex;
+}
+
+
+
+
+
 
 #menuClassique {
     display: flex;
@@ -161,8 +188,8 @@ nav {
     color: azure;
 }
 
-footer {
 
+footer {
     display: flex;
     flex-direction: row;
     width: 100%;
