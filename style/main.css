@@ -187,10 +187,12 @@ main {
 .contener {
     background-color: aquamarine;
     display: flex;
-    max-width: 70%;
+    width: 70%;
+    max-width: 80em;
     justify-self: center;
     border-radius: 24px;
     padding: 3em;
+
 }
 
 .content {
@@ -199,7 +201,8 @@ main {
     background-color: azure;
     padding: 1em;
     border-radius: 22px;
-    gap:em;
+    gap:1em;
+
 }
 
 .text {
@@ -254,7 +257,12 @@ img {
     height: 15%;
     background-color: black;
     border-radius: 12px;
+    min-height: 3em;
 }
+
+
+
+
 
 
 
