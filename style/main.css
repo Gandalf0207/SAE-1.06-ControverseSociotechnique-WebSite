@@ -161,6 +161,9 @@ nav {
 }
 
 
+/* mise en gras de l'élement */
+
+
 
 /* Annimation */
 
@@ -191,9 +194,7 @@ nav {
     animation-delay: 0.16s;
 }
 
-
-
-.menu > a {
+.menu > a{
     background-color: transparent;
     min-width: min-content;
     width: 90%;
@@ -209,7 +210,7 @@ nav {
     z-index: 1;
 }
 
-.menu > a::before {
+.menu > a::before{
     content: '';
     position: absolute;
     bottom: 0;
@@ -228,6 +229,23 @@ nav {
 
 .menu > a:hover {
     color: azure;
+}
+
+/* mise en valeur de la page */
+a.tag::before {
+    height: 100%;
+}
+
+a.tag {
+    color: azure;
+}
+
+.tag2 {
+    background-color: black;
+}
+
+.tag2 > a {
+    color: #dee2e6;
 }
 
 
