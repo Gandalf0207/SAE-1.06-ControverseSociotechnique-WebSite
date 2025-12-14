@@ -239,12 +239,22 @@ footer > div {
 }
 
 
+/* title of page */
+
+h1 {
+    font-size: 5em;
+    font-family: var(--main-font);
+    margin: 0.5em auto;
+    text-align: center;
+}
+
 
 
 
 /* ------------------- */
 
 main {
+    margin: 6em 0em;
     min-height: 100vh;
     display: flex;
     justify-content: center;
