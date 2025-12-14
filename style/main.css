@@ -62,7 +62,7 @@ nav {
 }
 
 #menu-humberger {
-    display: flex;
+    display: none;
     flex-direction: column;
     background-color: #dee2e6;
     position: absolute;
