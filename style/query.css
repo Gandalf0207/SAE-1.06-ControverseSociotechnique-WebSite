@@ -9,6 +9,9 @@
 
     footer {
         flex-direction: column;
+        gap: 2em;
+        height: fit-content;
+        padding: 1em 0;
     }
 }
 
