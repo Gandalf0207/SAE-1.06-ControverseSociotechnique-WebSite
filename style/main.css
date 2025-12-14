@@ -62,7 +62,7 @@ nav {
 }
 
 #menu-humberger {
-    display: none;
+    display: flex;
     flex-direction: column;
     background-color: #dee2e6;
     position: absolute;
@@ -75,15 +75,25 @@ nav {
 .sous-menu-humberger {
     display: flex;
     justify-content: center;
+    height: 2em;
+}
+
+.sous-menu-humberger > a {
+    color: black;
 }
 
 #humberger:hover #menu-humberger {
     display: flex;
 }
 
+.sous-menu-humberger:hover {
+    color: #dee2e6;
+    background-color: black;
+}
 
-
-
+.sous-menu-humberger:hover > a {
+    color: #dee2e6;
+}
 
 
 #menuClassique {
