@@ -10,10 +10,6 @@
     footer {
         flex-direction: column;
     }
-
-    nav {
-        justify-content: center;
-    }
 }
 
 
@@ -23,7 +19,11 @@
         flex-direction: column;
     }
 
-    .content {
+    .normal {
         flex-direction: column;
+    }
+
+    .inverse {
+        flex-direction: column-reverse;
     }
 }
