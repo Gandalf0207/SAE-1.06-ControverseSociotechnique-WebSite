@@ -257,9 +257,21 @@ footer {
     height: 5em;
     justify-content: center;
     align-items: center;
-    gap: 20%;
+    gap:4em;
     margin-top: auto;
     background-color: #f8f9fa;
+    color: #343a40;
+    font-size: 1em;
+    font-family: var(--main-font);
+}
+
+footer a {
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 footer > div {
@@ -414,5 +426,55 @@ img {
 
 
 
+.btn2 {
+    width:25%;
+    min-width: 15em;
+    height: 15%;
+    color: black;
+    background-color: transparent;
+    border-radius: 12px;
+    min-height: 3em;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #6c757d;
+    z-index: 0;
+}
+
+.btn2 > a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    color: black;
+    transition: color 0.2s ease-in-out;
+    font-size: 2em;
+    font-family: var(--main-font);
+}
+
+.btn2 > a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: black;
+    transition: height 0.2s ease-out;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.btn2 > a:hover::before {
+    height: 100%;
+}
+
+.btn2 > a:hover {
+    color: azure;
+}
 
 
