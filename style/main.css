@@ -40,6 +40,7 @@ header {
     display: flex;
     top: 0;
     position: sticky;
+    z-index: 100;
 }
 
 
@@ -371,9 +372,9 @@ img {
     justify-content: center;
     display: flex;
     align-items: center;
-    position: relative;
     overflow: hidden;
     background-color: #6c757d;
+    z-index: 0;
 }
 
 .btn > a {
