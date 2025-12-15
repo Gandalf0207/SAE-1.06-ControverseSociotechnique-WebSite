@@ -58,7 +58,7 @@ nav {
 #humberger {
     display: none;
     width: 4em;
-    height: 100%;    
+    height: 100%;
 }
 
 #menu-humberger {
@@ -124,7 +124,7 @@ nav {
     display: none; /**/
     gap: 0.5em;
     flex-direction: column;
- 
+
 }
 
 .menu:hover .sous-menu {
@@ -136,9 +136,9 @@ nav {
     background-color: #f8f9fa;
     color: black;
     opacity: 0; /**/
-    height: 2em;   
+    height: 2em;
     transition: border-radius 0.2s ease-out;
-
+    border-radius: 5px;
 }
 
 .sous-menuElt a {
@@ -220,7 +220,7 @@ nav {
     background-color: black;
     transition: height 0.2s ease-out;
     z-index: -1;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .menu > a:hover::before {
