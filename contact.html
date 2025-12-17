@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/query.css">
+    <title>Contact formulaire</title>
+</head>
+<body>
+<main>
+
+    <h1>Contactez nous</h1>
+
+    <div class="content_contact">
+        <form action="sendToMySecondYearInIut.php" method="post">
+
+            <div class="label_input_content">
+            <label for="surname">Nom :</label>
+            <input id="surname" name="uname" type="text">
+            </div>
+
+            <div class="label_input_content">
+            <label for="firstname">Prenom :</label>
+            <input id="firstname" name="uname" type="text">
+            </div>
+
+            <div class="label_input_content">
+            <label for="mail">Adresse Mail :</label>
+            <input id="mail" name="uname" type="email">
+            </div>
+
+            <div class="label_input_content">
+            <label for="postalCode">Code postal :</label>
+            <input id="postalCode" name="uname" type="number">
+            </div>
+
+            <div class="label_input_content">
+            <label for="country">Pays de résidence :</label>
+            <input id="country" name="uname" type="text">
+            </div>
+
+            <h2>Vous avez entendu parler de nous via :</h2>
+
+            <div class="label_input_content">
+            <select id="média" name="uname">
+                <option value="">-- Choisir un média --</option>
+                <option value="web">Web</option>
+                <option value="sociaNetwork">Réseaux sociaux</option>
+                <option value="iut">IUT</option>
+                <option value="mail">Email</option>
+            </select>
+
+            <label for="commentaires">Commentaires :</label>
+            <textarea id="commentaires" name="uname" rows="5"></textarea>
+            </div>
+        </form>
+    </div>
+</main>
+
+<footer>
+    <div id="copyR">
+        <P>&copy; 2025. Tous droits réservés.</P>
+    </div>
+
+    <div class="btn2">
+        <a href="index.html" class="btn2">Retour Accueil</a>
+    </div>
+
+    <div id="citation">
+        <p>Contactez-nous pour plus d'infos</p>
+    </div>
+</footer>
+
+</body>
+</html>
