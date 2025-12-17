@@ -83,6 +83,7 @@ nav {
     display: flex;
     justify-content: center;
     height: 2em;
+    background-color: #001e4170;
 }
 
 .sous-menu-humberger > a {
@@ -95,7 +96,7 @@ nav {
 
 .sous-menu-humberger:hover {
     color: var(--color-blanc);
-    background-color: var(--color-black);
+    background-color: #005b809d
 }
 
 .sous-menu-humberger:hover > a {
@@ -146,6 +147,7 @@ nav {
     height: 2em;
     transition: border-radius 0.2s ease-out;
     border-radius: 5px;
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.8);   
 }
 
 .sous-menuElt a {
@@ -158,7 +160,7 @@ nav {
 }
 
 .sous-menuElt:hover {
-    background-color: var(--color-black);
+    background-color: #005b809d;
     color: var(--color-blanc);
     border-radius: 10px;
 }
@@ -201,11 +203,11 @@ nav {
 }
 
 .menu > a{
-    background-color: transparent;
+    background-color: #001e4170;
     min-width: min-content;
     width: 90%;
     height: 50%;
-    border-radius: 10px;
+    border-radius: 15px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -223,7 +225,7 @@ nav {
     left: 0;
     width: 100%;
     height: 0;
-    background-color: var(--color-black);
+    background-color: #005b809d;
     transition: height 0.2s ease-out;
     z-index: -1;
     border-radius: 15px;
@@ -247,7 +249,7 @@ a.tag {
 }
 
 .tag2 {
-    background-color: var(--color-black);
+    background-color: #005b809d;
 }
 
 .tag2 > a {
@@ -310,7 +312,7 @@ h3 {
 /* ------------------- */
 
 main {
-    margin: 6em 0em;
+    margin: 2em 0 4em 0;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -326,7 +328,7 @@ main {
     max-width: 80em;
     justify-self: center;
     border-radius: 24px;
-    padding: 3em;
+    padding: 1em;
 
 }
 
@@ -334,8 +336,8 @@ main {
     display: flex;
     background-color: var(--color-blanc);
     padding: 1em;
-    border-radius: 22px;
-    /* gap:1em; */
+    border-radius: 16px;
+    gap:1em;
 
 }
 
