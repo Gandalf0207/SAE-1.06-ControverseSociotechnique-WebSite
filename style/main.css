@@ -34,6 +34,14 @@ body {
     min-height: 100vh;
 }
 
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
 
 /* ----------------------------------------------------------------------------- */
 /* ---------------------------- NAVBAR ----------------------------------------- */
@@ -326,7 +334,6 @@ main {
 
 .content {
     display: flex;
-    flex-direction: row;
     background-color: var(--color-blanc);
     padding: 1em;
     border-radius: 22px;
@@ -334,10 +341,8 @@ main {
 
 }
 
-.text {
+.infos {
     display: flex;
-    flex-direction: column;
-    flex: 1;
     align-items: center;
     gap: 1em;
     justify-content: center;
@@ -487,3 +492,25 @@ img {
 }
 
 
+.box {
+    display: flex;
+    padding: 0.5em;
+}
+
+.infos {
+    flex:1;
+    padding: 0.5em;
+}
+
+.autre {flex: 1;}
+
+h3 {
+    justify-content: center;
+    display: flex;
+    font-size: 200%;
+    padding: 1em;
+}
+
+.inverse {
+    flex-direction: row-reverse;
+}
