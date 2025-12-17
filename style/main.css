@@ -517,3 +517,10 @@ img {
 .motCle, .critique  {
     align-items:start;
 }
+
+
+/* pdf */
+.pdf-viewer > embed {
+    height: 800px;
+    width: 100%;
+}
