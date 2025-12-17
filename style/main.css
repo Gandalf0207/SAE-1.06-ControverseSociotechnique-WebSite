@@ -34,13 +34,7 @@ body {
     min-height: 100vh;
 }
 
-.row {
-    flex-direction: row;
-}
 
-.column {
-    flex-direction: column;
-}
 
 
 /* ----------------------------------------------------------------------------- */
@@ -285,17 +279,13 @@ footer a {
     text-align: center;
 }
 
-#citation {
-
-}
-
 footer > div {
     display: flex;
     align-items: center;
 }
 
 
-/* title of page */
+/* titles */
 
 h1 {
     font-size: 5em;
@@ -304,6 +294,15 @@ h1 {
     text-align: center;
     color: var(--color-blanc);
 }
+
+h3 {
+    justify-content: center;
+    display: flex;
+    font-size: 200%;
+    padding: 1em;
+    width: 100%  ;
+}
+
 
 
 
@@ -323,7 +322,6 @@ main {
 
 .contener {
     background-color: var(--color-grey-light);
-    display: flex;
     width: 70%;
     max-width: 80em;
     justify-self: center;
@@ -337,16 +335,11 @@ main {
     background-color: var(--color-blanc);
     padding: 1em;
     border-radius: 22px;
-    gap:1em;
+    /* gap:1em; */
 
 }
 
-.infos {
-    display: flex;
-    align-items: center;
-    gap: 1em;
-    justify-content: center;
-}
+
 
 .titlePage {
     font-size:2em;
@@ -361,16 +354,7 @@ main {
     line-height: 1.15em;
 }
 
-.autre {
-    display: flex;
-    flex-direction: column;
-    flex:2;
-    gap: 1em;
-    background-color: transparent;
-    justify-content: center;
-    align-items: center;
-    border-radius: 18px;
-}
+
 
 .image {
     width: 85%;
@@ -492,9 +476,19 @@ img {
 }
 
 
+.infos {
+    gap: 1em;
+}
+
+.autre {
+    gap: 1em;
+    border-radius: 18px;
+}
+
 .box {
     display: flex;
-    padding: 0.5em;
+    justify-content: center;
+    align-items: center;
 }
 
 .infos {
@@ -502,15 +496,24 @@ img {
     padding: 0.5em;
 }
 
-.autre {flex: 1;}
-
-h3 {
-    justify-content: center;
-    display: flex;
-    font-size: 200%;
-    padding: 1em;
+.autre {
+    flex: 1;
+    padding: 0.5em;
 }
 
-.inverse {
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.inverseRow{
     flex-direction: row-reverse;
+}
+
+.motCle, .critique  {
+    align-items:start;
 }

@@ -18,15 +18,9 @@
 
 
 @media (width < 740px) {
-    .contener {
+
+    .adapt {
         flex-direction: column;
     }
 
-    .normal {
-        flex-direction: column;
-    }
-
-    .inverse {
-        flex-direction: column-reverse;
-    }
 }
