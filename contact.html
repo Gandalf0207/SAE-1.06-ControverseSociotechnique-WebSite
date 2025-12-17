@@ -15,47 +15,65 @@
         <h1>Contactez nous</h1>
 
         <div class="content_contact">
-            <form action="sendToMySecondYearInIut.php" method="post">
+            <form action="https://webinfo.iutmontp.univ-montp2.fr/~eturosenfeld/php_pour_TD5/exempleTraitement.php" method="post">
 
                 <div class="label_input_content">
                     <label for="surname">Nom :</label>
-                    <input id="surname" name="uname" type="text">
+                    <input id="surname" name="uname" type="text" placeholder=" -- Votre Nom -- " required>
                 </div>
 
                 <div class="label_input_content">
                     <label for="firstname">Prenom :</label>
-                    <input id="firstname" name="uname" type="text">
+                    <input id="firstname" name="uname" type="text" placeholder=" -- Votre Prenom -- " required>
                 </div>
 
                 <div class="label_input_content">
                     <label for="mail">Adresse Mail :</label>
-                    <input id="mail" name="uname" type="email">
+                    <input id="mail" name="uname" type="email" placeholder=" -- Votre adresse mail -- " required>
                 </div>
 
                 <div class="label_input_content">
                     <label for="postalCode">Code postal :</label>
-                    <input id="postalCode" name="uname" type="number">
+                    <input id="postalCode" name="uname" type="number" placeholder=" -- Votre code postal -- " required>
                 </div>
 
                 <div class="label_input_content">
                     <label for="country">Pays de résidence :</label>
-                    <input id="country" name="uname" type="text">
+                    <select id="country" name="uname">
+                        <option value=""> -- Choisir un pays -- </option>
+                        <option value="France">France</option>
+                        <option value="Belgique">Belgique</option>
+                        <option value="Espagne">Espagne</option>
+                        <option value="allemagne">Allemagne</option>
+                    </select>
                 </div>
 
                 <h2>Vous avez entendu parler de nous via :</h2>
 
                 <div class="label_input_content">
                     <select id="média" name="uname">
-                        <option value="">-- Choisir un média --</option>
+                        <option value=""> -- Choisir un média -- </option>
                         <option value="web">Web</option>
                         <option value="sociaNetwork">Réseaux sociaux</option>
-                        <option value="iut">IUT</option>
+                        <option value="iut">Iut</option>
                         <option value="mail">Email</option>
                     </select>
+                </div>
 
+                <div class="label_input_content">
+                    <label for="postalCode"> Quand souhaitez-vous être recontacté ? </label>
+                    <input id="recontacté" name="uname" type="number" placeholder=" -- Etre recontacté -- " required>
+                </div>
+
+                <div class="label_input_content">
                     <label for="commentaires">Commentaires :</label>
                     <textarea id="commentaires" name="uname" rows="5"></textarea>
                 </div>
+
+                <div class="label_input_content">
+                    <input type="submit" value="Envoyer">
+                </div>
+
             </form>
         </div>
     </main>
