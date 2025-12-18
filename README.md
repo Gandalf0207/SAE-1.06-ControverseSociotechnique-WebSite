@@ -24,9 +24,9 @@ En code pur, la répartition du travail est de :
 
 En conception générale du projet de SAE 1.06 :
 - Quentin : 30%
-- Robin : 20% 
-- Tony : 25%
-- Maxime : 20%
+- Robin : 17% 
+- Tony : 19%
+- Maxime : 19%
 - Sphanle : 15%
 
 ## Liens : 
