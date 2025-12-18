@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,73 +9,69 @@
 </head>
 <body>
 
-<header>
-    <!-- NAVBAR -->
-    <nav>
+    <header>
+        <!-- NAVBAR -->
+        <nav>
 
-        <!-- version téléphone -->
-        <div id="humberger">
-            <img src="Images/menu.png" alt="Humberger Menu Image">
-            <div id="menu-humberger">
-                <div class="sous-menu-humberger tag2"><a href="index.html">Acceuil</a></div>
-                <div class="sous-menu-humberger"><a href="acteurs.html">Acteurs</a></div>
-                <div class="sous-menu-humberger"><a href="enjeux.html">Enjeux</a></div>
-                <div class="sous-menu-humberger"><a href="chronologie.html">Chronologie</a></div>
-                <div class="sous-menu-humberger"><a href="contact.html">Contact</a></div>
-            </div>
-        </div>
-
-        <!-- version pc / tablette -->
-        <div id="menuClassique">
-
-            <!-- accueil -->
-            <div class="menu">
-                <a href="index.html" class="tag">Accueil</a>
-                <div class="sous-menu">
-                    <div class="sous-menuElt"><a href="index.html#elt1Index">elt1</a></div>
-                    <div class="sous-menuElt"><a href="index.html#elt2Index">elt1</a></div>
-                    <div class="sous-menuElt"><a href="index.html#elt3Index">elt1</a></div>
+            <!-- version téléphone -->
+            <div id="humberger">
+                <img src="Images/menu.png" alt="Humberger Menu Image">
+                <div id="menu-humberger">
+                    <div class="sous-menu-humberger"><a href="index.html">Acceuil</a></div>
+                    <div class="sous-menu-humberger"><a href="acteurs.html">Acteurs</a></div>
+                    <div class="sous-menu-humberger"><a href="enjeux.html">Enjeux</a></div>
+                    <div class="sous-menu-humberger"><a href="chronologie.html">Chronologie</a></div>
+                    <div class="sous-menu-humberger tag2"><a href="contact.html">Contact</a></div>
                 </div>
             </div>
 
-            <!-- acteurs -->
-            <div class="menu">
-                <a href="acteurs.html">Acteurs</a>
-                <div class="sous-menu">
-                    <div class="sous-menuElt"><a href="acteurs.html#elt1Acteurs">elt1</a></div>
-                    <div class="sous-menuElt"><a href="acteurs.html#elt2Acteurs">elt1</a></div>
+            <!-- version pc / tablette -->
+            <div id="menuClassique">
+
+                <!-- accueil -->
+                <div class="menu">
+                    <a href="index.html">Accueil</a>
+                    <div class="sous-menu">
+                        <div class="sous-menuElt"><a href="index.html#elt1Index">Acteurs</a></div>
+                        <div class="sous-menuElt"><a href="index.html#elt2Index">Enjeux</a></div>
+                        <div class="sous-menuElt"><a href="index.html#elt3Index">Chrono</a></div>
+                    </div>
+                </div>
+
+                <!-- acteurs -->
+                <div class="menu">
+                    <a href="acteurs.html">Acteurs</a>
+                    <div class="sous-menu">
+                        <div class="sous-menuElt"><a href="acteurs.html#elt1Acteurs">Les Acteurs</a></div>
+                        <div class="sous-menuElt"><a href="acteurs.html#elt2Acteurs">Def & Enjeux</a></div>
+                    </div>
+                </div>
+
+                <!-- enjeux -->
+                <div class="menu">
+                    <a href="enjeux.html">Enjeux</a>
+                    <div class="sous-menu">
+                        <div class="sous-menuElt"><a href="enjeux.html#elt1Enjeux">Agriculture</a></div>
+                        <div class="sous-menuElt"><a href="enjeux.html#elt2Enjeux">Surveillance</a></div>
+                    </div>
+                </div>
+
+                <!-- chronologie -->
+                <div class="menu">
+                    <a href="chronologie.html">Chronologie</a>
+                    <div class="sous-menu">
+                        <div class="sous-menuElt"><a href="chronologie.html#elt1Chronologie">Evolution</a></div>
+                        <div class="sous-menuElt"><a href="chronologie.html#elt2Chronologie">PESTEL</a></div>
+                    </div>
+                </div>
+
+                <!-- contact -->
+                <div class="menu">
+                    <a href="contact.html"  class="tag">Contact</a>
                 </div>
             </div>
-
-            <!-- enjeux -->
-            <div class="menu">
-                <a href="enjeux.html">Enjeux</a>
-                <div class="sous-menu">
-                    <div class="sous-menuElt"><a href="enjeux.html#elt1Enjeux">elt1</a></div>
-                    <div class="sous-menuElt"><a href="enjeux.html#elt2Enjeux">elt1</a></div>
-                </div>
-            </div>
-
-            <!-- chronologie -->
-            <div class="menu">
-                <a href="chronologie.html">Chronologie</a>
-                <div class="sous-menu">
-                    <div class="sous-menuElt"><a href="chronologie.html#elt1Chronologie">elt1</a></div>
-                    <div class="sous-menuElt"><a href="chronologie.html#elt2Chronologie">elt1</a></div>
-                </div>
-            </div>
-
-            <!-- contact -->
-            <div class="menu">
-                <a href="contact.html">Contact</a>
-            </div>
-        </div>
-
-
-
-
-    </nav>
-</header>
+        </nav>
+    </header>
 
 <main>
 
@@ -128,8 +124,8 @@
                 </div>
 
                 <div class="label_input_content">
-                    <label for="postalCode"> Quand souhaitez-vous être recontacté ? </label>
-                    <input id="recontacté" name="number" type="date" placeholder=" -- Etre recontacté -- " required>
+                    <label for="recontacté"> Quand souhaitez-vous être recontacté ? </label>
+                    <input id="recontacté" name="number" type="date" required>
                 </div>
 
                 <div class="label_input_content">
@@ -155,7 +151,7 @@
     </div>
 
     <div id="citation">
-        <p>La citation à mettre</p>
+        <p>"Data is the new oil." - Clive Humby (2006)</p>
     </div>
 </footer>
 
