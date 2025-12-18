@@ -32,7 +32,7 @@ En conception générale du projet de SAE 1.06 :
 ## Liens : 
 > SiteWeb : [Lien](https://webinfo.iutmontp.univ-montp2.fr/~pladeauq/A1/SiteWebSAE1.06/index.html)
 
-> GitLab : [Lien]()
+> GitLab : [Lien](https://gitlabinfo.iutmontp.univ-montp2.fr/devinitiatique/etu/pladeauq/sae-1.06-controversesociotechnique-website)
 
 > GitHub : [Lien](https://github.com/Gandalf0207/SAE-1.06-ControverseSociotechnique-WebSite)
 
