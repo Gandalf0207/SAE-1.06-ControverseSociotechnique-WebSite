@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,100 +9,118 @@
 </head>
 <body>
 
-    <header>
-        <!-- NAVBAR -->
-        <nav>
+<header>
+    <!-- NAVBAR -->
+    <nav>
 
-            <!-- version téléphone -->
-             <div id="humberger">
-                <img src="Images/menu.png" alt="Humberger Menu Image">
-                <div id="menu-humberger">
-                    <div class="sous-menu-humberger"><a href="">Acceuil</a></div>
-                    <div class="sous-menu-humberger"><a href="">Acteur</a></div>
-                    <div class="sous-menu-humberger tag2"><a href="">Enjeux</a></div>
-                    <div class="sous-menu-humberger"><a href="">Chronologie</a></div>
-                    <div class="sous-menu-humberger"><a href="">Contact</a></div>
+        <!-- version téléphone -->
+        <div id="humberger">
+            <img src="Images/menu.png" alt="Humberger Menu Image">
+            <div id="menu-humberger">
+                <div class="sous-menu-humberger tag2"><a href="index.html">Acceuil</a></div>
+                <div class="sous-menu-humberger"><a href="acteurs.html">Acteurs</a></div>
+                <div class="sous-menu-humberger"><a href="enjeux.html">Enjeux</a></div>
+                <div class="sous-menu-humberger"><a href="chronologie.html">Chronologie</a></div>
+                <div class="sous-menu-humberger"><a href="contact.html">Contact</a></div>
+            </div>
+        </div>
+
+        <!-- version pc / tablette -->
+        <div id="menuClassique">
+
+            <!-- accueil -->
+            <div class="menu">
+                <a href="index.html" class="tag">Accueil</a>
+                <div class="sous-menu">
+                    <div class="sous-menuElt"><a href="index.html#elt1Index">elt1</a></div>
+                    <div class="sous-menuElt"><a href="index.html#elt2Index">elt1</a></div>
+                    <div class="sous-menuElt"><a href="index.html#elt3Index">elt1</a></div>
                 </div>
-             </div>
+            </div>
 
-            <!-- version pc / tablette -->
-             <div id="menuClassique">
-
-                <!-- accueil -->
-                <div class="menu">
-                    <a href="index.html">Accueil</a>
-                    <div class="sous-menu">
-                        <div class="sous-menuElt"><a href="">elt1</a></div>
-                        <div class="sous-menuElt"><a href="">elt1</a></div>
-                        <div class="sous-menuElt"><a href="">elt1</a></div>
-                    </div>
+            <!-- acteurs -->
+            <div class="menu">
+                <a href="acteurs.html">Acteurs</a>
+                <div class="sous-menu">
+                    <div class="sous-menuElt"><a href="acteurs.html#elt1Acteurs">elt1</a></div>
+                    <div class="sous-menuElt"><a href="acteurs.html#elt2Acteurs">elt1</a></div>
                 </div>
+            </div>
 
-                <!-- acteurs -->
-                <div class="menu">
-                    <a href="acteurs.html">Acteurs</a>
-                    <div class="sous-menu">
-                        <div class="sous-menuElt"><a href="">elt1</a></div>
-                        <div class="sous-menuElt"><a href="">elt1</a></div>
-                    </div>
+            <!-- enjeux -->
+            <div class="menu">
+                <a href="enjeux.html">Enjeux</a>
+                <div class="sous-menu">
+                    <div class="sous-menuElt"><a href="enjeux.html#elt1Enjeux">elt1</a></div>
+                    <div class="sous-menuElt"><a href="enjeux.html#elt2Enjeux">elt1</a></div>
                 </div>
+            </div>
 
-                <!-- enjeux -->
-                <div class="menu">
-                    <a href="enjeux.html" class="tag">Enjeux</a>
-                    <div class="sous-menu">
-                        <div class="sous-menuElt"><a href="">elt1</a></div>
-                        <div class="sous-menuElt"><a href="">elt1</a></div>
-                    </div>
+            <!-- chronologie -->
+            <div class="menu">
+                <a href="chronologie.html">Chronologie</a>
+                <div class="sous-menu">
+                    <div class="sous-menuElt"><a href="chronologie.html#elt1Chronologie">elt1</a></div>
+                    <div class="sous-menuElt"><a href="chronologie.html#elt2Chronologie">elt1</a></div>
                 </div>
+            </div>
 
-                <!-- chronologie -->
-                <div class="menu">
-                    <a href="chronologie.html">Chronologie</a>
-                    <div class="sous-menu">
-                        <div class="sous-menuElt"><a href="">elt1</a></div>
-                        <div class="sous-menuElt"><a href="">elt1</a></div>
-                    </div>
-                </div>
-
-                <!-- contact -->
-                <div class="menu">
-                    <a href="contact.html">Contact</a>
-                </div>
-             </div>
-
-            
+            <!-- contact -->
+            <div class="menu">
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
 
 
-        </nav>
-    </header>
+
+
+    </nav>
+</header>
 
     <main>
 
         <h1>Enjeux Page</h1>
         
-        <div class="contener box column">
+        <div class="contener box column" id = "elt1Enjeux">
             <div class="titleArticle box">
                 <h3>Titre de la page</h3>
             </div>
             <div class="content box row adapt">
                 <div class="infos box column">
                     <div class="text box column">
-                        <h4>Descriptionus</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt natus eos magni. Ducimus enim laudantium modi sapiente dolorum, adipisci sit vitae iste officia laboriosam. Quibusdam voluptatum fugit impedit eos numquam.
-                        Amet, sequi maxime soluta quis debitis quo voluptas maiores obcaecati distinctio labore consequuntur blanditiis inventore est quidem, voluptatum culpa aperiam! Nesciunt cum adipisci temporibus repudiandae delectus omnis error ut est!
-                        Praesentium optio ullam officiis cum, nisi placeat rem, eaque veniam soluta necessitatibus eius distinctio adipisci architecto accusamus! Magni soluta eum tempora cum dolores dolorem? Incidunt quas maiores aliquid impedit aspernatur.
+                        <h4>Descriptions :</h4>
+                        <p>
+                            Cet article sur le Big Data agriculture et alimentation fait par Alain Boudet et Pierre Feillet,alimente directement la controverse sur le Big Data en démontrant la transformation profonde du système alimentaire, partagée entre la promesse d'une agriculture plus durable et les risques de dérives économiques et éthiques.
+                            L'analyse révèle plusieurs acteurs clés : les agriculteurs, qui sont à la fois les producteurs et les utilisateurs des données ; les géants de l'agro-tech et data brokers comme Climate Corp (filiale de Bayer/Monsanto), qui détiennent le pouvoir d'analyse ; les consommateurs-citoyens, ciblés par un marketing très affiné ; et les pouvoirs publics (État, Nations Unies, coopératives), qui doivent tenter de réguler ce nouveau marché.
+                            Les enjeux soulevés sont multiples :
+                            Éthique : La collecte massive de données soulève la question de la juste rétribution des agriculteurs et de l'égalité d'accès à la technologie. De plus, l'utilisation de données génomiques pour une nutrition personnalisée pose le risque d'un "fichage" des individus.
+                            Légal : Le texte souligne un retard de la France et de l'Europe, qui, contrairement aux États-Unis, n'ont pas encore défini de règles claires pour l'usage, la propriété et la rémunération des données agricoles, créant un vide juridique.
+                            Social : Le coût et la complexité des nouvelles technologies risquent de créer une agriculture à deux vitesses, pénalisant les petits exploitants et favorisant les grandes exploitations, menaçant ainsi les modèles agricoles traditionnels.
+                            Économique et Politique : L'enjeu est celui de la souveraineté : des entreprises étrangères pourraient détenir plus d'informations sur les terres françaises que l'État lui-même, leur permettant d'anticiper les marchés et de prendre le pas sur les intérêts écologiques et humanitaires.
+                            Les principaux champs scientifiques impliqués sont l'agronomie et les biotechnologies, les sciences de l'information (Big Data, deep learning, algorithmes), la nutrition, les sciences sociales et économiques (analyse des marchés, compétitivité) ainsi que le droit et l'éthique.
+
+
+                            7 Utilisations de technologies et de données (capteurs, logiciels, drones, etc.) pour mieux gérer les cultures, le sol et l’élevage, afin d’optimiser les récoltes et réduire les ressources utilisées.
+                            8 Entreprise spécialisée dans l’agriculture numérique.
+                            9 Société française qui développe des logiciels agricoles permettant de gérer les exploitations, suivre les cultures et analyser les données pour optimiser la production.
+
                         </p>
                     </div>  
                     <div class="utile row box">
                         <div class="motCle box column">
-                            <h4>Motus Kalus</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolores alias consectetur dolore excepturi temporibus dolorum non nostrum cum quibusdam provident nam vero sunt iusto, neque suscipit repellat, modi sapiente!</p>
+                            <h4>Mots clés :</h4>
+                            <p>
+                            Big data,
+                            Agriculture numérique7,
+                            Nutrition,
+                            Climate Corp7/SMAG.
+                            </p>
                         </div>
     
                         <div class="critique box column">
-                            <h4>Criticus</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eius dignissimos quas magnam aspernatur aliquid ut, autem at! Ut quam cupiditate maiores eum totam veniam at delectus? Fugiat, voluptas! In?</p>
+                            <h4>Critiques :</h4>
+                            <p>Fiabilité : Cet article de l’académie des technologies qui est un expert reconnu. Pertinence : je pense que le texte est pertinent pour montrer une des avancées que propose le big data, et dans un domaine que l’on n'entend pas souvent, avec des enjeux pourtant bien réels. Limites : malgré la pertinence du texte et l’avance des propos, il a été publié en 2019, c'est qui fait qu’il aurait pu avoir des informations en plus.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -114,28 +132,45 @@
             </div>
         </div>
 
-        <div class="contener box column">
+        <div class="contener box column" id = "elt2Enjeux">
             <div class="titleArticle box">
                 <h3>Titre de la page</h3>
             </div>
             <div class="content box inverseRow adapt">
                 <div class="infos box column">
                     <div class="text box column">
-                        <h4>Descriptionus</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt natus eos magni. Ducimus enim laudantium modi sapiente dolorum, adipisci sit vitae iste officia laboriosam. Quibusdam voluptatum fugit impedit eos numquam.
-                        Amet, sequi maxime soluta quis debitis quo voluptas maiores obcaecati distinctio labore consequuntur blanditiis inventore est quidem, voluptatum culpa aperiam! Nesciunt cum adipisci temporibus repudiandae delectus omnis error ut est!
-                        Praesentium optio ullam officiis cum, nisi placeat rem, eaque veniam soluta necessitatibus eius distinctio adipisci architecto accusamus! Magni soluta eum tempora cum dolores dolorem? Incidunt quas maiores aliquid impedit aspernatur.
+                        <h4>Descriptions :</h4>
+                        <p>
+                            Cette enquête de "Cash Investigation" alimente directement la controverse sur le Big Data en démontrant l'ampleur de la collecte de nos données personnelles et la difficulté de faire respecter notre vie privée.
+                            L'analyse révèle plusieurs acteurs clés : les citoyens européens, dont les données sont collectées à leur insu ; les géants du web comme Facebook, qui stockent tout ; et les "data brokers" (courtiers en données) tels que la société américaine IQVIA, qui centralisent et revendent ces informations.
+                            Les enjeux soulevés sont multiples :
+                            Éthique : La collecte et la commercialisation de données, notamment de santé, sans un consentement clair, posent un problème moral fondamental.
+                            Légal : Malgré le RGPD, les sanctions (comme l'amende de 50 millions d'euros pour Google, une somme que l'entreprise gagne en quelques heures) semblent dérisoires et peu dissuasives.
+                            Social : La prétendue anonymisation des données est fragile. La capacité à "ré-identifier" des individus ouvrent la voie à une surveillance de masse et à des discriminations (à l'embauche, pour un crédit).
+                            Économique : Un marché extrêmement lucratif s'est développé autour de la revente de données, où une simple étude de marché peut être facturée jusqu'à 500 000 €.
+                            Les principaux champs scientifiques impliqués sont l'informatique (pour les algorithmes de collecte et d'analyse), la psychologie sociale (pour le profilage prédictif des comportements) et le droit (pour l'encadrement via des lois comme le RGPD).
+
+
+                            6 Entreprise internationale qui collecte et analyse des données du domaine de la santé.
                         </p>
                     </div>  
                     <div class="utile row box">
                         <div class="motCle box column">
-                            <h4>Motus Kalus</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolores alias consectetur dolore excepturi temporibus dolorum non nostrum cum quibusdam provident nam vero sunt iusto, neque suscipit repellat, modi sapiente!</p>
+                            <h4>Mots clés :</h4>
+                            <p>Données personnelles,
+                                IQVIA6,
+                                Collecte de données,
+                                RGPD (Règlement Général sur la Protection des Données).
+                            </p>
                         </div>
     
                         <div class="critique box column">
-                            <h4>Criticus</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eius dignissimos quas magnam aspernatur aliquid ut, autem at! Ut quam cupiditate maiores eum totam veniam at delectus? Fugiat, voluptas! In?</p>
+                            <h4>Critiques :</h4>
+                            <p>
+                                Fiabilité : La source vient de Cash Investigation est une émission de France 2 présentée par Elise Lucet qui est connue pour son enquête sur des affaires chaudes.
+                                Pertinence : je pense que la source est pertinente pour représenter un enjeu d'éthique et légaux de la collecte de données de santé des personnes sans les prévenir à des fins commerciaux.
+                                Limites : le manque de partage de source en description si on souhaite approfondir la vidéo, possible qu’il y est des Bias.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -148,19 +183,20 @@
         </div>
 
     </main>
-    
-    <footer>
-        <div id="copyR">
-            <P>&copy; 2025. Tous droits réservés.</P>
-        </div>
 
-        <div class="btn2">
-            <a href="" class="btn2">Voir page</a>
-        </div>
+<footer>
+    <div id="copyR">
+        <P>&copy; 2025. Tous droits réservés.</P>
+    </div>
 
-        <div id="citation">
-            <p>La citation à mettre</p>
-        </div>
-    </footer>
+    <div class="btn2">
+        <a href="contact.html" class="btn2">Contactez nous</a>
+    </div>
+
+    <div id="citation">
+        <p>La citation à mettre</p>
+    </div>
+</footer>
+
 </body>
 </html>
