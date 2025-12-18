@@ -19,27 +19,27 @@
 
                 <div class="label_input_content">
                     <label for="surname">Nom :</label>
-                    <input id="surname" name="uname" type="text" placeholder=" -- Votre Nom -- " required>
+                    <input id="surname" name="uname" type="text" placeholder=" -- Votre Nom -- " required pattern="[A-Za-z]">
                 </div>
 
                 <div class="label_input_content">
                     <label for="firstname">Prenom :</label>
-                    <input id="firstname" name="uname" type="text" placeholder=" -- Votre Prenom -- " required>
+                    <input id="firstname" name="name" type="text" placeholder=" -- Votre Prenom -- " required pattern="[A-Za-z]">
                 </div>
 
                 <div class="label_input_content">
                     <label for="mail">Adresse Mail :</label>
-                    <input id="mail" name="uname" type="email" placeholder=" -- Votre adresse mail -- " required>
+                    <input id="mail" name="email" type="email" placeholder=" -- Votre adresse mail -- ">
                 </div>
 
                 <div class="label_input_content">
                     <label for="postalCode">Code postal :</label>
-                    <input id="postalCode" name="uname" type="number" placeholder=" -- Votre code postal -- " required>
+                    <input id="postalCode" name="postal" type="text" placeholder=" -- Votre code postal -- " required pattern = "[0-9]{5}">
                 </div>
 
                 <div class="label_input_content">
                     <label for="country">Pays de résidence :</label>
-                    <select id="country" name="uname">
+                    <select id="country" name="pays">
                         <option value=""> -- Choisir un pays -- </option>
                         <option value="France">France</option>
                         <option value="Belgique">Belgique</option>
@@ -51,7 +51,7 @@
                 <h2>Vous avez entendu parler de nous via :</h2>
 
                 <div class="label_input_content">
-                    <select id="média" name="uname">
+                    <select id="média" name="media">
                         <option value=""> -- Choisir un média -- </option>
                         <option value="web">Web</option>
                         <option value="sociaNetwork">Réseaux sociaux</option>
@@ -62,12 +62,12 @@
 
                 <div class="label_input_content">
                     <label for="postalCode"> Quand souhaitez-vous être recontacté ? </label>
-                    <input id="recontacté" name="uname" type="number" placeholder=" -- Etre recontacté -- " required>
+                    <input id="recontacté" name="number" type="date" placeholder=" -- Etre recontacté -- " required>
                 </div>
 
                 <div class="label_input_content">
                     <label for="commentaires">Commentaires :</label>
-                    <textarea id="commentaires" name="uname" rows="5"></textarea>
+                    <textarea id="commentaires" name="coms" rows="5"></textarea>
                 </div>
 
                 <div class="label_input_content">
